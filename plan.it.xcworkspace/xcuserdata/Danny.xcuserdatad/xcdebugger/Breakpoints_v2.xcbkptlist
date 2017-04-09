@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "plan.it/AppDelegate.swift"
+            timestampString = "512417612.644071"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "plan_it.AppDelegate.init () -&gt; plan_it.AppDelegate"
+                  moduleName = "plan.it"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Danny/Documents/IOSApps/plan.it/plan.it/AppDelegate.swift"
+                  timestampString = "513205715.557528"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "plan_it.AppDelegate.__allocating_init () -&gt; plan_it.AppDelegate"
+                  moduleName = "plan.it"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Danny/Documents/IOSApps/plan.it/plan.it/AppDelegate.swift"
+                  timestampString = "513205715.559826"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "plan.it"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Danny/Documents/IOSApps/plan.it/plan.it/AppDelegate.swift"
+                  timestampString = "513205715.562037"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
