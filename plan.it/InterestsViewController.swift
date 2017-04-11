@@ -9,6 +9,29 @@
 import UIKit
 
 class InterestsViewController: UIViewController {
+    
+    //currently says interests
+    @IBOutlet weak var titleOutlet: UILabel!
+    
+    
+    @IBOutlet weak var musicOutlet: UILabel!
+    @IBOutlet weak var socialOutlet: UILabel!
+    @IBOutlet weak var sportsOutlet: UILabel!
+    @IBOutlet weak var artsOutlet: UILabel!
+    
+    @IBAction func musicButton(_ sender: Any) {
+    }
+    
+    @IBAction func socialButton(_ sender: Any) {
+    }
+   
+    @IBAction func sportsButton(_ sender: Any) {
+    }
+    
+    @IBAction func artsButton(_ sender: Any) {
+    
+    }
+    
 
     override func viewDidLoad() {
 
@@ -22,18 +45,7 @@ class InterestsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        for view in view.subviews {
-            if view is UIScrollView {
-                view.frame = UIScreen.main.bounds // Why? I don't know.
-            }
-            else if view is UIPageControl {
-                view.backgroundColor = UIColor.clear
-            }
-        }
-    }
-
+    
     /*
     // MARK: - Navigation
 

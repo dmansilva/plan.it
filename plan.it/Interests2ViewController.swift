@@ -9,6 +9,37 @@
 import UIKit
 
 class Interests2ViewController: UIViewController {
+    
+    //currently says Interests
+    @IBOutlet weak var titleOutlet: UILabel!
+    
+    @IBOutlet weak var outdoorsOutlet: UILabel!
+    @IBOutlet weak var culturalOutlet: UILabel!
+    @IBOutlet weak var professionalOutlet: UILabel!
+    @IBOutlet weak var specialOutlet: UILabel!
+    
+    @IBAction func outdoorsButton(_ sender: Any) {
+    }
+    
+    @IBAction func culturalButton(_ sender: Any) {
+    }
+    
+    
+    @IBAction func professionalButton(_ sender: Any) {
+    }
+    
+    
+    @IBAction func specialButton(_ sender: Any) {
+    }
+    
+    
+    @IBAction func startButton(_ sender: Any) {
+        
+        //submit interests and segue to events tab
+    }
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,17 +52,7 @@ class Interests2ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        for view in view.subviews {
-            if view is UIScrollView {
-                view.frame = UIScreen.main.bounds // Why? I don't know.
-            }
-            else if view is UIPageControl {
-                view.backgroundColor = UIColor.clear
-            }
-        }
-    }
+    
     
 
     /*
