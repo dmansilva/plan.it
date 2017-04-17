@@ -26,7 +26,7 @@
                   moduleName = "plan.it"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Danny/Documents/IOSApps/plan.it/plan.it/AppDelegate.swift"
-                  timestampString = "513631393.167179"
+                  timestampString = "514015670.105875"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -41,7 +41,7 @@
                   moduleName = "plan.it"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Danny/Documents/IOSApps/plan.it/plan.it/AppDelegate.swift"
-                  timestampString = "513631393.169621"
+                  timestampString = "514015670.111072"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -56,7 +56,7 @@
                   moduleName = "plan.it"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Danny/Documents/IOSApps/plan.it/plan.it/AppDelegate.swift"
-                  timestampString = "513631393.171776"
+                  timestampString = "514015670.117056"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -80,6 +80,70 @@
             endingLineNumber = "20"
             landmarkName = "MyPagesViewController"
             landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "plan.it/InterestsViewController.swift"
+            timestampString = "513813104.642084"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "InterestsViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "plan.it/Database.swift"
+            timestampString = "514015668.6945"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "updateInterests(arrayofInterests:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "plan.it/Database.swift"
+            timestampString = "514015668.6945"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "updateInterests(arrayofInterests:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "plan.it/Interests2ViewController.swift"
+            timestampString = "514015295.327054"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "startButton(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

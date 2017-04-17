@@ -13,30 +13,185 @@ class Interests2ViewController: UIViewController {
     //currently says Interests
     @IBOutlet weak var titleOutlet: UILabel!
     
+    // is pressed buttons 
+    
+    var outdoorsIsPressed: Bool = false
+    var culturalIsPressed: Bool = false
+    var professionalIsPressed: Bool = false
+    var specialIsPressed: Bool = false
+    
     @IBOutlet weak var outdoorsOutlet: UILabel!
     @IBOutlet weak var culturalOutlet: UILabel!
     @IBOutlet weak var professionalOutlet: UILabel!
     @IBOutlet weak var specialOutlet: UILabel!
     
+    func updateInterestArray(interestNumber: Int, buttonStatus: Bool) {
+        
+        if buttonStatus == false {
+            
+            interestsArray[interestNumber] = false
+            
+        } else {
+            
+            interestsArray[interestNumber] = true
+        }
+        
+        print(interestsArray)
+        
+        /*
+         FIRDatabase.database().reference().child("users").child(FIRAuth.auth()!.currentUser!.uid).child("interests").observe(.value, with: {
+         snapshot in
+         
+         if snapshot.value is NSNull {
+         print("not found")
+         } else {
+         
+         }
+         })
+         */
+    }
+    
     @IBAction func outdoorsButton(_ sender: Any) {
+        
+        if outdoorsIsPressed == false {
+            // button is not pressed yet, pressing it
+            
+            outdoorsIsPressed = true
+            
+            // change image for button (filled circle?)
+            
+            
+            // update boolean status of interest array
+            updateInterestArray(interestNumber: 4, buttonStatus: outdoorsIsPressed)
+            
+        }
+            
+        else if outdoorsIsPressed == true {
+            // button is already pressed and we are unpressing it
+            
+            outdoorsIsPressed = false
+            
+            // change image for button (unfilled circle?)
+            
+            // update boolean status of interest array
+            updateInterestArray(interestNumber: 4, buttonStatus: outdoorsIsPressed)
+            
+        }
+
+        
+        
     }
     
     @IBAction func culturalButton(_ sender: Any) {
+        
+        if culturalIsPressed == false {
+            // button is not pressed yet, pressing it
+            
+            culturalIsPressed = true
+            
+            // change image for button (filled circle?)
+            
+            
+            // update boolean status of interest array
+            updateInterestArray(interestNumber: 5, buttonStatus: culturalIsPressed)
+            
+        }
+            
+        else if culturalIsPressed == true {
+            // button is already pressed and we are unpressing it
+            
+            culturalIsPressed = false
+            
+            // change image for button (unfilled circle?)
+            
+            // update boolean status of interest array
+            updateInterestArray(interestNumber: 5, buttonStatus: culturalIsPressed)
+            
+        }
+
     }
     
     
     @IBAction func professionalButton(_ sender: Any) {
+        
+        if professionalIsPressed == false {
+            // button is not pressed yet, pressing it
+            
+            professionalIsPressed = true
+            
+            // change image for button (filled circle?)
+            
+            
+            // update boolean status of interest array
+            updateInterestArray(interestNumber: 6, buttonStatus: professionalIsPressed)
+            
+        }
+            
+        else if professionalIsPressed == true {
+            // button is already pressed and we are unpressing it
+            
+            professionalIsPressed = false
+            
+            // change image for button (unfilled circle?)
+            
+            // update boolean status of interest array
+            updateInterestArray(interestNumber: 6, buttonStatus: professionalIsPressed)
+            
+        }
+
     }
     
     
     @IBAction func specialButton(_ sender: Any) {
+        
+        if specialIsPressed == false {
+            // button is not pressed yet, pressing it
+            
+            specialIsPressed = true
+            
+            // change image for button (filled circle?)
+            
+            
+            // update boolean status of interest array
+            updateInterestArray(interestNumber: 7, buttonStatus: specialIsPressed)
+            
+        }
+            
+        else if specialIsPressed == true {
+            // button is already pressed and we are unpressing it
+            
+            specialIsPressed = false
+            
+            // change image for button (unfilled circle?)
+            
+            // update boolean status of interest array
+            updateInterestArray(interestNumber: 7, buttonStatus: specialIsPressed)
+            
+        }
+
     }
     
     
     @IBAction func startButton(_ sender: Any) {
         
-        //submit interests and segue to events tab
+        //use UpdateChildValues to submit interests to database
+        
+        let interest = DB()
+        
+        interest.updateInterests(arrayofInterests: interestsArray)
+        
+        
+        
+        
+        // segue to tabbed controller to complete setup process
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "tabbed")
+        self.present(vc!, animated: true, completion: nil)
+        
+        
     }
+    
+    
     
     
     
