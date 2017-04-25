@@ -12,6 +12,8 @@ import Firebase
 
 class DB {
     
+    var testUser: User?
+    
     // reference to the Firebase data store
     private var dbRef : FIRDatabaseReference!
     
@@ -19,7 +21,9 @@ class DB {
     private var usersDB : FIRDatabaseReference
     
     // reference for interests
-    private var interestRef : FIRDatabaseReference
+    //private var interestRef : FIRDatabaseReference
+    
+    var name: String
     
     init() {
         
@@ -29,7 +33,9 @@ class DB {
         self.usersDB = self.dbRef.child("users")
         
         // intialize interest reference
-        self.interestRef = self.usersDB.child("interests")
+        //self.interestRef = self.usersDB.child("interests")
+        
+        name = ""
         
     }
     
@@ -50,9 +56,53 @@ class DB {
         
         let key = FIRAuth.auth()!.currentUser!.uid
         
-        self.interestRef.updateChildValues(["/interests/\(key)" : arrayofInterests])
+        self.dbRef.child("users/\(key)/interests").setValue(arrayofInterests)
+        
+        //self.usersDB.child("\(key)")
+        
+        //self.interestRef.updateChildValues(["/interests/\(key)" : arrayofInterests])
         
     }
+    
+    /*
+    
+    func getUserFullName() {
+        
+        let key = FIRAuth.auth()?.currentUser?.uid
+        
+        print(key!)
+        
+        self.dbRef.child("users").child(key!).observeSingleEvent(of: .value, with: { (snapshot) in
+            
+            let value = snapshot.value as? NSDictionary
+            
+            let firstName = value?["firstName"] as! String
+            
+            let lastName = value?["lastName"] as! String
+            
+            let fullName = firstName + " " + lastName
+            
+            let user = User.init(fullName: fullName)
+            
+            //self.name = fullName
+            
+            self.testUser = user
+            
+            print("1" + (self.testUser?.fullName)!)
+            
+        })
+        
+        print("work?" + (self.testUser?.fullName)!)
+        
+    }
+ 
+    */
+    
+    
+    
+    
+    
+    
     
     
 }

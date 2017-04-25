@@ -178,6 +178,10 @@ class Interests2ViewController: UIViewController {
         
         let interest = DB()
         
+        //let description = "nadav"
+        
+        //interest.updateInterests(arrayofInterests: interestsArray, description: description)
+        
         interest.updateInterests(arrayofInterests: interestsArray)
         
         
