@@ -15,6 +15,7 @@ var interestsArray: [Bool] = [false, false, false, false, false, false, false, f
 
 class InterestsViewController: UIViewController {
     
+//    @IBOutlet var step: UILabel!
     //currently says interests
     @IBOutlet weak var titleOutlet: UILabel!
     
@@ -24,6 +25,10 @@ class InterestsViewController: UIViewController {
     
     
     // isPressed buttons to keep track of whether that category button is pressed or not
+    @IBOutlet var musicButton: UIButton!
+    @IBOutlet var socialButton: UIButton!
+    @IBOutlet var sportsButton: UIButton!
+    @IBOutlet var artsButton: UIButton!
     
     var musicIsPressed: Bool = false
     var socialIsPressed: Bool = false
@@ -70,6 +75,7 @@ class InterestsViewController: UIViewController {
             musicIsPressed = true
             
             // change image for button (filled circle?)
+            musicButton.setImage(UIImage(named: "Asset 3@0.5x.png"), for: UIControlState.normal)
             
             
             // update boolean status of interest array
@@ -82,7 +88,9 @@ class InterestsViewController: UIViewController {
             
             musicIsPressed = false
             
+            
             // change image for button (unfilled circle?)
+            musicButton.setImage(UIImage(named: "Asset 1@0.5x.png"), for: UIControlState.normal)
             
             // update boolean status of interest array
             updateInterestArray(interestNumber: 0, buttonStatus: musicIsPressed)
@@ -98,6 +106,7 @@ class InterestsViewController: UIViewController {
             socialIsPressed = true
             
             // change image for button (filled circle?)
+            socialButton.setImage(UIImage(named: "Asset 3@0.5x.png"), for: UIControlState.normal)
             
             
             // update boolean status of interest array
@@ -111,6 +120,7 @@ class InterestsViewController: UIViewController {
             socialIsPressed = false
             
             // change image for button (unfilled circle?)
+            socialButton.setImage(UIImage(named: "Asset 1@0.5x.png"), for: UIControlState.normal)
             
             // update boolean status of interest array
             updateInterestArray(interestNumber: 1, buttonStatus: socialIsPressed)
@@ -126,6 +136,7 @@ class InterestsViewController: UIViewController {
             sportsIsPressed = true
             
             // change image for button (filled circle?)
+            sportsButton.setImage(UIImage(named: "Asset 3@0.5x.png"), for: UIControlState.normal)
             
             
             // update boolean status of interest array
@@ -139,6 +150,7 @@ class InterestsViewController: UIViewController {
             sportsIsPressed = false
             
             // change image for button (unfilled circle?)
+            sportsButton.setImage(UIImage(named: "Asset 1@0.5x.png"), for: UIControlState.normal)
             
             // update boolean status of interest array
             updateInterestArray(interestNumber: 2, buttonStatus: sportsIsPressed)
@@ -154,6 +166,7 @@ class InterestsViewController: UIViewController {
             artsIsPressed = true
             
             // change image for button (filled circle?)
+            artsButton.setImage(UIImage(named: "Asset 3@0.5x.png"), for: UIControlState.normal)
             
             
             // update boolean status of interest array
@@ -167,6 +180,7 @@ class InterestsViewController: UIViewController {
             artsIsPressed = false
             
             // change image for button (unfilled circle?)
+            artsButton.setImage(UIImage(named: "Asset 1@0.5x.png"), for: UIControlState.normal)
             
             // update boolean status of interest array
             updateInterestArray(interestNumber: 3, buttonStatus: artsIsPressed)
@@ -179,6 +193,7 @@ class InterestsViewController: UIViewController {
     override func viewDidLoad() {
 
         // Do any additional setup after loading the view.
+
     }
     
     

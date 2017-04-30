@@ -16,6 +16,7 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var emailEntered: UITextField!
     @IBOutlet weak var passwordEntered: UITextField!
     
+//    @IBOutlet var step: UILabel!
     
     @IBAction func logInPressed(_ sender: Any) {
         

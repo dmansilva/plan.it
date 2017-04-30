@@ -9,6 +9,8 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import QuartzCore
+
 
 
 
@@ -21,6 +23,7 @@ class SignInViewController: UIViewController {
 
     //Text Fields
     
+//    @IBOutlet var step: UILabel!
     @IBOutlet weak var emailText: UITextField!
     @IBOutlet weak var passwordText: UITextField!
     @IBOutlet weak var firstName: UITextField!
