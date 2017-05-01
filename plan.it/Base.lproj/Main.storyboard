@@ -189,7 +189,10 @@
             <point key="canvasLocation" x="2317.5999999999999" y="142.57871064467767"/>
         </scene>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/master
         <!--Table View Controller-->
         <scene sceneID="HYx-lA-UOt">
             <objects>
@@ -219,6 +222,9 @@
             </objects>
             <point key="canvasLocation" x="3228" y="-912.5937031484259"/>
         </scene>
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
         <!--Profile View Controller-->
         <scene sceneID="3qO-MB-Rej">
@@ -232,6 +238,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
 <<<<<<< HEAD
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Full Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJy-kK-6Db">
                                 <rect key="frame" x="127" y="277" width="121" height="33"/>
@@ -257,6 +264,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psO-MI-1bw">
                                 <rect key="frame" x="16" y="318" width="343" height="99"/>
 =======
+=======
+>>>>>>> origin/master
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LA7-1P-6NZ">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="384"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -299,6 +308,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mvd-8b-DLl">
                                 <rect key="frame" x="251" y="404" width="18" height="21"/>
+<<<<<<< HEAD
 >>>>>>> origin/master
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -345,6 +355,8 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Last Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFX-Zi-Lvm">
                                 <rect key="frame" x="28" y="437" width="82" height="21"/>
+=======
+>>>>>>> origin/master
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -420,6 +432,12 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </view>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    <tabBarItem key="tabBarItem" title="" image="Asset 6@0.5x.png" selectedImage="Asset 5@0.5x.png" id="Ren-wM-VRX">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
+>>>>>>> origin/master
 =======
                     <tabBarItem key="tabBarItem" title="" image="Asset 6@0.5x.png" selectedImage="Asset 5@0.5x.png" id="Ren-wM-VRX">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>

@@ -286,14 +286,20 @@
 				301360871EB147D8001F9966 /* person@2x.png in Resources */,
 				3099B59F1E8AE2DC004604EB /* GoogleService-Info.plist in Resources */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				301360861EB147D8001F9966 /* person.png in Resources */,
 =======
+=======
+>>>>>>> origin/master
 				191CD95C1EB542DC009CC4F1 /* Asset 7@0.5x.png in Resources */,
 				191CD9611EB547D9009CC4F1 /* Asset 9.png in Resources */,
 				191CD9621EB547D9009CC4F1 /* Asset 9@0.5x.png in Resources */,
 				19D375881EB29135001D1518 /* InterestButtonAsset 1.png in Resources */,
 				191CD95B1EB542DC009CC4F1 /* Asset 7.png in Resources */,
 				191CD9581EB542DC009CC4F1 /* Asset 5@0.5x.png in Resources */,
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 				3099B56C1E877B7C004604EB /* Assets.xcassets in Resources */,
 				19D375891EB29135001D1518 /* InterestButtonAsset 1@2x.png in Resources */,
