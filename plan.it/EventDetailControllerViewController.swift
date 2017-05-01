@@ -24,6 +24,21 @@ class EventDetailControllerViewController: UIViewController {
     @IBAction func inviteButton(_ sender: Any) {
     }
     
+    // reference to the Firebase data store
+    private var dbRef : FIRDatabaseReference!
+
+
+    init() {
+        
+        self.dbRef = FIRDatabase.database().reference()
+        
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
     
     func configureView() {
         // Update the user interface for the detail item.

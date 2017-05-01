@@ -10,9 +10,14 @@ import UIKit
 
 class Interests2ViewController: UIViewController {
     
+//    @IBOutlet var step: UILabel!
     //currently says Interests
     @IBOutlet weak var titleOutlet: UILabel!
     
+    @IBOutlet var outdoorsButton: UIButton!
+    @IBOutlet var culturalButton: UIButton!
+    @IBOutlet var professionalButton: UIButton!
+    @IBOutlet var specialButton: UIButton!
     // is pressed buttons 
     
     var outdoorsIsPressed: Bool = false
@@ -59,6 +64,7 @@ class Interests2ViewController: UIViewController {
             outdoorsIsPressed = true
             
             // change image for button (filled circle?)
+            outdoorsButton.setImage(UIImage(named: "Asset 3@0.5x.png"), for: UIControlState.normal)
             
             
             // update boolean status of interest array
@@ -72,6 +78,7 @@ class Interests2ViewController: UIViewController {
             outdoorsIsPressed = false
             
             // change image for button (unfilled circle?)
+            outdoorsButton.setImage(UIImage(named: "Asset 1@0.5x.png"), for: UIControlState.normal)
             
             // update boolean status of interest array
             updateInterestArray(interestNumber: 4, buttonStatus: outdoorsIsPressed)
@@ -90,6 +97,7 @@ class Interests2ViewController: UIViewController {
             culturalIsPressed = true
             
             // change image for button (filled circle?)
+            culturalButton.setImage(UIImage(named: "Asset 3@0.5x.png"), for: UIControlState.normal)
             
             
             // update boolean status of interest array
@@ -103,6 +111,7 @@ class Interests2ViewController: UIViewController {
             culturalIsPressed = false
             
             // change image for button (unfilled circle?)
+            culturalButton.setImage(UIImage(named: "Asset 1@0.5x.png"), for: UIControlState.normal)
             
             // update boolean status of interest array
             updateInterestArray(interestNumber: 5, buttonStatus: culturalIsPressed)
@@ -120,7 +129,7 @@ class Interests2ViewController: UIViewController {
             professionalIsPressed = true
             
             // change image for button (filled circle?)
-            
+            professionalButton.setImage(UIImage(named: "Asset 3@0.5x.png"), for: UIControlState.normal)
             
             // update boolean status of interest array
             updateInterestArray(interestNumber: 6, buttonStatus: professionalIsPressed)
@@ -133,6 +142,7 @@ class Interests2ViewController: UIViewController {
             professionalIsPressed = false
             
             // change image for button (unfilled circle?)
+            professionalButton.setImage(UIImage(named: "Asset 1@0.5x.png"), for: UIControlState.normal)
             
             // update boolean status of interest array
             updateInterestArray(interestNumber: 6, buttonStatus: professionalIsPressed)
@@ -150,7 +160,7 @@ class Interests2ViewController: UIViewController {
             specialIsPressed = true
             
             // change image for button (filled circle?)
-            
+            specialButton.setImage(UIImage(named: "Asset 3@0.5x.png"), for: UIControlState.normal)
             
             // update boolean status of interest array
             updateInterestArray(interestNumber: 7, buttonStatus: specialIsPressed)
@@ -163,6 +173,7 @@ class Interests2ViewController: UIViewController {
             specialIsPressed = false
             
             // change image for button (unfilled circle?)
+            specialButton.setImage(UIImage(named: "Asset 1@0.5x.png"), for: UIControlState.normal)
             
             // update boolean status of interest array
             updateInterestArray(interestNumber: 7, buttonStatus: specialIsPressed)

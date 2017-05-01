@@ -14,6 +14,8 @@ pod 'Firebase/Database'
 pod 'Firebase/Invites'
 pod 'Firebase/RemoteConfig'
 pod 'Firebase/Storage'
+pod 'FirebaseUI/Storage'
+pod 'SDWebImage/WebP'
 
 
 end

@@ -63,6 +63,19 @@ class DB {
         //self.interestRef.updateChildValues(["/interests/\(key)" : arrayofInterests])
         
     }
+    /*
+    func setDefaultImage() {
+        
+        let key = FIRAuth.auth()!.currentUser!.uid
+        
+        let profileDefault = UIImage(named:"person.png")
+        
+        self.dbRef.child("users/\(key)/image").setValue(profileDefault)
+        
+    }
+    */
+    
+    //let profileDefault = UIImage(named:"person.png")
     
     /*
     

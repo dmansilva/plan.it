@@ -7,12 +7,31 @@
 //
 
 import UIKit
+import Firebase
 
 class EventsMasterTableViewController: UITableViewController {
+    
+  
+    
+    // reference to the Firebase data store
+    private var dbRef : FIRDatabaseReference!
     
     var detailViewController: EventDetailControllerViewController? = nil
     var objects = [Any]()
     
+    init() {
+        
+        self.dbRef = FIRDatabase.database().reference()
+        
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
+   
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
